@@ -1344,7 +1344,7 @@ a {
             left:0;
         }
     }
-    .image-desc-3 {
+    .image-desc {
         display: inline-block;
         color:#fff;
         padding: 5px 10px;
@@ -1416,8 +1416,8 @@ p.caption {
         right: 87%;
 
         @include desktop {
-            bottom:19%;
-            right:86%;
+            bottom:26%;
+            right:88.3%;
         }
 
         &.food-size {
@@ -1425,8 +1425,33 @@ p.caption {
             right:84.5%;
 
             @include desktop {
-                bottom:19%;
-                right:83%;
+                bottom:26%;
+                right:86.2%;
+            }
+        }
+
+        &.healthcare {
+                right:77%;
+                bottom:9%;
+            @include desktop {
+                bottom:26%;
+                right: 79.7%;
+            }
+        }
+
+        &.human-resources {
+            right:79.5%;
+            @include desktop {
+                bottom:26%;
+                right:82.2%;
+            }
+        }
+
+        &.management {
+            right:77.8%;
+            @include desktop {
+                bottom:26%;
+                right: 80.7%;
             }
         }
     }
@@ -1448,6 +1473,15 @@ p.caption {
             top:5.7%;
             @include desktop {
                 top:4.8%;
+            }
+        }
+
+        &.community {
+            top: 6.3%;
+            right: 73%;
+            @include desktop {
+                top:3%;
+                right:81%;
             }
         }
     }

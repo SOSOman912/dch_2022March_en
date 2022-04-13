@@ -86,7 +86,7 @@ $(function() {
         }
     })
 })
-ß
+
 $(window).on('resize',function() {
     if($(window).width() > 992) { 
         $('body').removeClass('overflow-hidden'); 
