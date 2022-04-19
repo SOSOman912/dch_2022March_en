@@ -4,6 +4,47 @@
 
 @import "bootstrap/scss/bootstrap";
 
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url('./fonts/ACaslonPro-Regular.eot');
+    src: url('./fonts/ACaslonPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/ACaslonPro-Regular.woff2') format('woff2'),
+        url('./fonts/ACaslonPro-Regular.woff') format('woff'),
+        url('./fonts/ACaslonPro-Regular.ttf') format('truetype'),
+        url('./fonts/ACaslonPro-Regular.svg#ACaslonPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url('./fonts/ACaslonPro-Semibold.eot');
+    src: url('./fonts/ACaslonPro-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/ACaslonPro-Semibold.woff2') format('woff2'),
+        url('./fonts/ACaslonPro-Semibold.woff') format('woff'),
+        url('./fonts/ACaslonPro-Semibold.ttf') format('truetype'),
+        url('./fonts/ACaslonPro-Semibold.svg#ACaslonPro-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url('./fonts/ACaslonPro-Bold.eot');
+    src: url('./fonts/ACaslonPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/ACaslonPro-Bold.woff2') format('woff2'),
+        url('./fonts/ACaslonPro-Bold.woff') format('woff'),
+        url('./fonts/ACaslonPro-Bold.ttf') format('truetype'),
+        url('./fonts/ACaslonPro-Bold.svg#ACaslonPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 
 $hamburger-layer-width: 25px;
 $hamburger-layer-height: 2px;
