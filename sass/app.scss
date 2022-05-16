@@ -304,7 +304,7 @@ header {
             @include desktop {
                 bottom: 47%;
                 right: 18%;
-                width: 18%;
+                width:186px;
             }
         }
 
@@ -1436,15 +1436,16 @@ p.caption {
 
     .head-word-one-line {
         position: absolute;
-        bottom: 15%;
+        bottom: 25%;
         left: 3%;
         height: unset;
         right: 76%;
-        width: unset;
+        width:15.3vw;
 
         @include desktop {
             bottom:34%;
             right: 81%;
+            width:150px;
         }
     }
 
@@ -1452,62 +1453,61 @@ p.caption {
         position:absolute;
         left:3%;
         height:unset;
-        width:unset;
-        bottom: 9%;
-        right: 87%;
+        width:9.3vw;
+        bottom: 10%;
 
         @include desktop {
-            bottom:26%;
-            right:88.3%;
+            bottom:20%;
+            width:100px
         }
 
         &.food-size {
-            bottom:9%;
-            right:84.5%;
-
+            width:18%;
+            width:12.3vw;
             @include desktop {
-                bottom:26%;
-                right:86.2%;
+                width:125px;
+                bottom:20%;
             }
         }
 
         &.healthcare {
-                right:77%;
-                bottom:9%;
+                bottom:10%;
+                width:19.3vw;
             @include desktop {
-                bottom:26%;
-                right: 79.7%;
+                bottom:10%;
+                width:125px;
             }
         }
 
         &.human-resources {
-            right:79.5%;
+            bottom:10%;
+            width:16vw;
             @include desktop {
-                bottom:26%;
-                right:82.2%;
+                bottom:20%;
+                width:175px;
             }
         }
 
         &.management {
-            right:77.8%;
+            bottom:10%;
+            width:18.3vw;
             @include desktop {
-                bottom:26%;
-                right: 80.7%;
+                bottom:10%;
+                width:175px;
             }
         }
     }
 
     .head-word-with-photo {
         position: absolute;
-        top: 7.1%;
+        top: 7.8%;
         left: 3%;
         height: unset;
-        right: 76%;
-        width: unset;
+        width:15.3vw;
 
         @include desktop {
-            top:6.5%;
-            right:81%;
+            top:7.5%;
+            width:150px;
         }
 
         &.chan {
@@ -1519,10 +1519,10 @@ p.caption {
 
         &.community {
             top: 6.3%;
-            right: 73%;
+            width:24.3vw;
             @include desktop {
-                top:3%;
-                right:81%;
+                top:2.9%;
+                width:175px;
             }
         }
     }
